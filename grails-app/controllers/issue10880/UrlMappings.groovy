@@ -4,6 +4,8 @@ class UrlMappings {
 
     static mappings = {
 
+        name mymapping: "/testurl" (view:'/myview')
+
         "/$controller/$action?/$id?(.$format)?"{
             constraints {
                 // apply constraints here
